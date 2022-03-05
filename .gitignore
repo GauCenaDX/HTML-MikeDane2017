@@ -3,3 +3,6 @@
 
 # ignore swap file
 *.swp
+
+# ignore files in ignore-dir
+ignore-dir

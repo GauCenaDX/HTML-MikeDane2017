@@ -7,20 +7,33 @@
   <title>Duc's Cool Website</title>
 </head>
 <body>
-  <h2>Click on the image to see our cat transform.</h2>
-  <!-- Link a an image on the internet -->
-  <a href="https://api.time.com/wp-content/uploads/2018/06/dinosaurs-jurassic-world-fact-check-3.jpg">
-    <!--
-      Link to an image in local storage
-      Image original aspect ratio: 1200x1200
-      If we set only the width, HTML will automatically resize the height of the img
-    -->
-    <img
-      width="400"
-      height="400"
-      src="cat.jpg"
-      alt="A really cute cat"
-    />
-  </a>
+  <section>
+    <h3>A video from my local storage</h3>
+    <!-- Put a video in local storage on your website -->
+    <!-- Extra attributes: loop, autoplay -->
+    <video
+      src="enemy-ImagineDragons-x-JID.mp4"
+      poster="arcane-thumbnail.jpg"
+      controls width="500"
+    >
+      This text will show up if the video can't be displayed.
+    </video>
+  </section>
+
+  <section>
+    <h3>A video from youtube</h3>
+    <iframe
+      width="560"
+      height="315"
+      src="https://www.youtube-nocookie.com/embed/Uvy_o058T40"
+      title="1MILLION X K/DA - MORE"
+      poster="arcane-thumbnail.jpg"
+      frameborder="0"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+      allowfullscreen
+    >
+      1MILLION X K/DA - MORE
+    </iframe>
+  </section>
 </body>
 </html>
