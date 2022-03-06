@@ -7,30 +7,45 @@
   <title>Duc's Cool Website</title>
 </head>
 <body>
-  <h1>Containers in HTML</h1>
+  <h1>Inputs & Forms in HTML</h1>
+
+  <input type="text" value="Type some text here"/>
+  <input type="password" />
+  <input type="date" />
+  <input type="email" />
+  <input type="range" />
+  <input type="file" />
+
+  <input type="checkbox" />
+  <input type="checkbox" />
+
+  <!-- Radio button with the same name can only be checked one at a time -->
+  <input type="radio" name="btn" />
+  <input type="radio" name="btn" />
+
+  <!-- Submit button -->
+  <input type="submit" />
+
+  <textarea rows="10" cols="30">
+    This is a textarea
+  </textarea>
 
   <!--
-    Two basic ways to display elements in HTML: blocks & inline
-      . Block element takes full width of page
-      . Inline element only takes as much width as needed
+    Form is a wrapper for multiple input elements.
+    Normally, it is used for submit information to server.
   -->
+  <form>
+    <input type="text" placeholder="username" />
+    <input type="password" placeholder="password" />
+    <input type="email" placeholder="email@mail.com" />
+    <input type="submit" />
+  </form>
 
-  <!-- Example of inline elements -->
-  <a href="#">link1</a>
-  <a href="#">link2</a>
-
-  <hr/>
-
-  <!-- Example of block elements -->
-  <p>Paragraph1</p>
-  <p>Paragraph2</p>
-
-  <hr/>
-
-  <span>Spans are</span>
-  <span>inline elements</span>
-
-  <div>Divs are</div>
-  <div>block element</div>
+  <a
+    href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input"
+    target="_blank"
+  >
+    <h4>Click here to see more input types and their attributes...</h4>
+  </a>
 </body>
 </html>
