@@ -7,45 +7,22 @@
   <title>Duc's Cool Website</title>
 </head>
 <body>
-  <h1>Inputs & Forms in HTML</h1>
+  <h1>iFrames in HTML</h1>
 
-  <input type="text" value="Type some text here"/>
-  <input type="password" />
-  <input type="date" />
-  <input type="email" />
-  <input type="range" />
-  <input type="file" />
-
-  <input type="checkbox" />
-  <input type="checkbox" />
-
-  <!-- Radio button with the same name can only be checked one at a time -->
-  <input type="radio" name="btn" />
-  <input type="radio" name="btn" />
-
-  <!-- Submit button -->
-  <input type="submit" />
-
-  <textarea rows="10" cols="30">
-    This is a textarea
-  </textarea>
-
-  <!--
-    Form is a wrapper for multiple input elements.
-    Normally, it is used for submit information to server.
-  -->
-  <form>
-    <input type="text" placeholder="username" />
-    <input type="password" placeholder="password" />
-    <input type="email" placeholder="email@mail.com" />
-    <input type="submit" />
-  </form>
-
-  <a
-    href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input"
-    target="_blank"
+  <p>It is used to embedded another website inside of your webpage.</p>
+  <p>
+    However, some big websites have their setting setup so that other cannot
+    embedded their website in iFrame.
+  </p>
+  
+  <h4>The Website of My Favorite Coding Guru</h4>
+  <iframe
+    src="https://www.mikedane.com/"
+    frameborder="0"
+    width="700"
+    height="800"
   >
-    <h4>Click here to see more input types and their attributes...</h4>
-  </a>
+    Sorry, you cannot see the iframe part.
+  </iframe>
 </body>
 </html>
