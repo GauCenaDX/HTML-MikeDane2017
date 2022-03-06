@@ -7,44 +7,25 @@
   <title>Duc's Cool Website</title>
 </head>
 <body>
-  <h3>Unordered List:</h3>
-  <ul>
-    <li>
-      <a
-        href="https://www.apple.com/ac/structured-data/images/knowledge_graph_logo.png?202202181406"
-        target="_blank"
-      >
-        Apples
-      </a>
-    </li>
-    <li>Oranges</li>
-    <li>Bananas</li>
-  </ul>
-
-  <h3>Ordered List:</h3>
-  <!-- Change the type of ordered list: 1, A, a, I, i -->
-  <ol type="I">
-    <li>Order an item</li>
-    <li>
-      Pay for it
-      <!-- Embedded Lists -->
-      <ol>
-        <li>Sub item 1</li>
-      </ol>
-    </li>
-    <li>Wait for its arrival</li>
-  </ol>
-
-  <!--
-    Description List:
-      . Description term
-      . Description description
-  -->
-  <dl>
-    <dt>Apples</dt>
-    <dd>- They are red</dd>
-    <dt>Oranges</dt>
-    <dd>- They are orange</dd>
-  </dl>
+  <table>
+    <thead>
+      <!-- Add title for the table -->
+      <caption><h3>My Basic Table</h3></caption>
+      <tr>
+        <th>Column 1</th>
+        <th>Column 2</th>
+        <th>Column 3</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <!-- Specify column span -->
+        <td colspan="2">data for col 1</td>
+        <td>data for col 2</td>
+        <td>data for col 3</td>
+      </tr>
+    </tbody >
+  </table>
+  
 </body>
 </html>
