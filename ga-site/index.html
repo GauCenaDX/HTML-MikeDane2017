@@ -7,33 +7,44 @@
   <title>Duc's Cool Website</title>
 </head>
 <body>
-  <section>
-    <h3>A video from my local storage</h3>
-    <!-- Put a video in local storage on your website -->
-    <!-- Extra attributes: loop, autoplay -->
-    <video
-      src="enemy-ImagineDragons-x-JID.mp4"
-      poster="arcane-thumbnail.jpg"
-      controls width="500"
-    >
-      This text will show up if the video can't be displayed.
-    </video>
-  </section>
+  <h3>Unordered List:</h3>
+  <ul>
+    <li>
+      <a
+        href="https://www.apple.com/ac/structured-data/images/knowledge_graph_logo.png?202202181406"
+        target="_blank"
+      >
+        Apples
+      </a>
+    </li>
+    <li>Oranges</li>
+    <li>Bananas</li>
+  </ul>
 
-  <section>
-    <h3>A video from youtube</h3>
-    <iframe
-      width="560"
-      height="315"
-      src="https://www.youtube-nocookie.com/embed/Uvy_o058T40"
-      title="1MILLION X K/DA - MORE"
-      poster="arcane-thumbnail.jpg"
-      frameborder="0"
-      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-      allowfullscreen
-    >
-      1MILLION X K/DA - MORE
-    </iframe>
-  </section>
+  <h3>Ordered List:</h3>
+  <!-- Change the type of ordered list: 1, A, a, I, i -->
+  <ol type="I">
+    <li>Order an item</li>
+    <li>
+      Pay for it
+      <!-- Embedded Lists -->
+      <ol>
+        <li>Sub item 1</li>
+      </ol>
+    </li>
+    <li>Wait for its arrival</li>
+  </ol>
+
+  <!--
+    Description List:
+      . Description term
+      . Description description
+  -->
+  <dl>
+    <dt>Apples</dt>
+    <dd>- They are red</dd>
+    <dt>Oranges</dt>
+    <dd>- They are orange</dd>
+  </dl>
 </body>
 </html>
